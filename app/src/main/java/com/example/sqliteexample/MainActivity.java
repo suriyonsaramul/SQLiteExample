@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // get all contacts
-        
+
         helper = new ContactSQLiteHelper(this);
         List<Contact> contacts = helper.selectAll();
 
